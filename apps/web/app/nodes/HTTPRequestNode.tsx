@@ -26,19 +26,15 @@ export const HTTPRequestNode = registerFlowNode({
     icon: <GitPullRequest />,
   },
   nodeAction: async ({ url }) => {
-    try {
-      const { data } = await axios.get(url);
+    const { data } = await axios.get(url);
 
-      const isJson = typeof data === "object";
-      if (!isJson) {
-        return {
-          data,
-        };
-      }
-
-      return data;
-    } catch (error) {
-      throw error;
+    const isJson = typeof data === "object";
+    if (!isJson) {
+      return {
+        data,
+      };
     }
+
+    return data;
   },
 });
