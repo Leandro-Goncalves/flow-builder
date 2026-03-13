@@ -18,7 +18,6 @@ import { useCallback, useRef } from "react";
 import { FlowNodeContextProvider } from "../context/FlowNodeContext";
 import type { useFlowNodes } from "../hooks/useFlowNodes";
 import { useAddDefaultNode } from "../nodes/DefaultNode/useAddDefaultNode";
-import "../styles/globals.css";
 import { AddNodeSheet } from "./add-node-sheet";
 import { EditNodeDialog } from "./edit-node-dialog";
 import { Toaster } from "./sonner";

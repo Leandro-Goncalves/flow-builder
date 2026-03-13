@@ -50,6 +50,7 @@
     "typescript": "^5.9.3"
   },
   "exports": {
-    ".": "./dist/index.js"
+    ".": "./dist/index.js",
+    "./styles/globals.css": "./src/styles/globals.css"
   }
 }
