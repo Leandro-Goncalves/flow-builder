@@ -1,5 +1,12 @@
 # web
 
+## 3.0.6
+
+### Patch Changes
+
+- Updated dependencies [0b990b6]
+  - @react-flowkit/ui@3.1.5
+
 ## 3.0.5
 
 ### Patch Changes
