@@ -161,7 +161,7 @@ type registerDefaultNodeProps = {
   icon: React.ReactNode;
 };
 export const registerDefaultNode = ({ icon }: registerDefaultNodeProps) => {
-  return () => {
+  const RegisteredDefaultNode = () => {
     const nodeId = useNodeId();
     const { data } = useNodesData(nodeId ?? "") ?? ({ data: {} } as any);
     const { handleAddNode, handleEditNode } = useAddDefaultNode(nodeId);
@@ -187,4 +187,6 @@ export const registerDefaultNode = ({ icon }: registerDefaultNodeProps) => {
       </NodeStatusIndicator>
     );
   };
+  RegisteredDefaultNode.displayName = "RegisteredDefaultNode";
+  return RegisteredDefaultNode;
 };

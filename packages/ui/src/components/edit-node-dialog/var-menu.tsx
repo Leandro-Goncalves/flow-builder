@@ -61,7 +61,7 @@ export const VarMenu: React.FC<{
         {isDataObject && (
           <CollapsibleContent>
             <div className="ml-8 mt-2 flex flex-col gap-2">
-              {Object.entries(value as Object).map(([key, data1]) => {
+              {Object.entries(value as object).map(([key, data1]) => {
                 return (
                   <VarMenu
                     isDraggable={isDraggable}

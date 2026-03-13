@@ -43,7 +43,7 @@ export function useFakeCaret(
       caret.remove();
       mirror.remove();
     };
-  }, []);
+  }, [inputRef]);
 
   function updateCaret(mouseX: number): number {
     const input = inputRef?.current;

@@ -55,37 +55,40 @@ export const FlowContainerContent: React.FC<{
         }
         return newNodes;
       }),
-    [],
+    [flowNodes.initialEdges, flowNodes.initialNodes, setEdges, setNodes],
   );
   const onEdgesChange = useCallback(
     (changes: EdgeChanges) =>
       setEdges((edgesSnapshot) => applyEdgeChanges(changes, edgesSnapshot)),
-    [],
+    [setEdges],
   );
   const onConnect = useCallback(
     (params: Connection) =>
       setEdges((edgesSnapshot) => addEdge(params, edgesSnapshot)),
-    [],
+    [setEdges],
   );
 
-  const onConnectEnd = useCallback<OnConnectEnd>((event, props) => {
-    const screenToFlowPosition = reactFlowRef.current?.screenToFlowPosition;
-    if (props.isValid || !screenToFlowPosition) return;
-    const { clientX, clientY } =
-      "changedTouches" in event
-        ? (event.changedTouches[0] as Touch)
-        : (event as MouseEvent);
-    const { id } = props.fromNode ?? {};
-    if (!props.pointer || !id) return;
+  const onConnectEnd = useCallback<OnConnectEnd>(
+    (event, props) => {
+      const screenToFlowPosition = reactFlowRef.current?.screenToFlowPosition;
+      if (props.isValid || !screenToFlowPosition) return;
+      const { clientX, clientY } =
+        "changedTouches" in event
+          ? (event.changedTouches[0] as Touch)
+          : (event as MouseEvent);
+      const { id } = props.fromNode ?? {};
+      if (!props.pointer || !id) return;
 
-    handleAddNode(
-      id,
-      screenToFlowPosition({
-        x: clientX,
-        y: clientY,
-      }),
-    );
-  }, []);
+      handleAddNode(
+        id,
+        screenToFlowPosition({
+          x: clientX,
+          y: clientY,
+        }),
+      );
+    },
+    [handleAddNode],
+  );
 
   return (
     <>

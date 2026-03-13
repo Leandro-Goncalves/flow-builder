@@ -1,13 +1,13 @@
 {
   "name": "web",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "module",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint . --max-warnings 0",
     "lint:fix": "next lint --fix",
     "typecheck": "tsc --noEmit"
   },

@@ -33,7 +33,7 @@ export const ParentVarMenu: React.FC<{
         </div>
         <CollapsibleContent>
           <div className="ml-8 mt-2 flex flex-col gap-2">
-            {Object.entries(vars as Object).map(([key, data1]) => {
+            {Object.entries(vars as object).map(([key, data1]) => {
               return (
                 <VarMenu
                   key={key}

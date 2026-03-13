@@ -65,7 +65,7 @@ export const EditNodeDialog: React.FC = () => {
 
   const { handleNodeAction } = useNodeAction();
   const { actionVars } = useNodeResult(node?.data.actionResult);
-  const { parentVars, mapVars } = useParentVars(nodeId || "");
+  const { parentVars } = useParentVars(nodeId || "");
 
   const fields = flowNode?.dataFields || {};
 
@@ -173,7 +173,7 @@ export const EditNodeDialog: React.FC = () => {
             </div>
           </DialogTitle>
           <DialogDescription className="sr-only">
-            Here you can edit the node's properties and fields.
+            Here you can edit the node&apos;s properties and fields.
           </DialogDescription>
         </DialogHeader>
         <form

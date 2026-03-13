@@ -64,6 +64,8 @@ export const useDialog = <
     handleClose,
     keys.data,
     keys.openKey,
+    keys.onCloseKey,
+    options?.unmountOnClose,
   ]);
 
   return [internalComponentMemo as any, controls, dialogData.isOpen];

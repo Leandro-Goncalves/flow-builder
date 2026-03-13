@@ -17,7 +17,7 @@ type returnData<DataField extends Record<string, DATA_FIELD_TYPE>> = {
 
 export type DATA_FIELD_TYPE<
   TYPE extends string = string,
-  INITIAL_VALUE extends any = any,
+  INITIAL_VALUE = any,
 > = {
   type: TYPE;
   initialValue: INITIAL_VALUE;

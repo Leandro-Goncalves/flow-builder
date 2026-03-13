@@ -11,7 +11,7 @@ export const createFieldComponents = <
 ) => {
   const addFieldComponent = <
     NAME extends keyof FIELD_COMPONENTS,
-    InitialValue extends any,
+    InitialValue = any,
   >(
     name: NAME,
     {

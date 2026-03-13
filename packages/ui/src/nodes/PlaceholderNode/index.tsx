@@ -39,7 +39,7 @@ export const registerPlaceholderNode = ({
   icon,
   label,
 }: registerPlaceholderNodeProps) => {
-  return () => {
+  const RegisteredPlaceholderNode: React.FC = () => {
     const nodeId = useNodeId();
     const { handleAddNode } = useAddPlaceholderNode(nodeId);
 
@@ -49,4 +49,6 @@ export const registerPlaceholderNode = ({
       </PlaceholderNode>
     );
   };
+  RegisteredPlaceholderNode.displayName = "RegisteredPlaceholderNode";
+  return RegisteredPlaceholderNode;
 };
