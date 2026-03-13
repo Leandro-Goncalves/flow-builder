@@ -1,5 +1,11 @@
 # @react-flowkit/ui
 
+## 3.1.0
+
+### Minor Changes
+
+- 10d155c: aa
+
 ## 3.0.0
 
 ### Major Changes
