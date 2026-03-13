@@ -55,7 +55,7 @@ function setupListeners() {
 
 // React usage example with useSubscribe hook
 function ReactComponentExample() {
-  // import { useSubscribe } from "@workspace/pubsub/react";
+  // import { useSubscribe } from "@react-flowkit/pubsub/react";
   // useSubscribe(eventBus, "user:login", (payload) => {
   //   console.log(`Welcome ${payload.username}!`);
   // });
@@ -81,5 +81,5 @@ voidEventBus.subscribe("app:ready", () => {
   console.log("App is ready!");
 });
 
-export { eventBus, setupListeners, loginUser, showNotification };
+export { eventBus, loginUser, setupListeners, showNotification };
 export type { UserEvents, VoidEvents };

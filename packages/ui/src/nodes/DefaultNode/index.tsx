@@ -1,17 +1,17 @@
-import { BaseHandle } from "@workspace/ui/components/base-handle";
-import { Button } from "@workspace/ui/components/button";
-import { ButtonHandle } from "@workspace/ui/components/button-handle";
-import { useClickAway } from "@workspace/ui/components/click-away";
+import { BaseHandle } from "@react-flowkit/ui/components/base-handle";
+import { Button } from "@react-flowkit/ui/components/button";
+import { ButtonHandle } from "@react-flowkit/ui/components/button-handle";
+import { useClickAway } from "@react-flowkit/ui/components/click-away";
 import {
   NodeStatusIndicator,
   type NodeStatus,
-} from "@workspace/ui/components/node-status-indicator";
+} from "@react-flowkit/ui/components/node-status-indicator";
 import {
   NodeState,
   type NodeStateType,
-} from "@workspace/ui/hooks/useFlowNodes";
-import { useNodeAction } from "@workspace/ui/hooks/useNodeAction";
-import { cn } from "@workspace/ui/lib/utils";
+} from "@react-flowkit/ui/hooks/useFlowNodes";
+import { useNodeAction } from "@react-flowkit/ui/hooks/useNodeAction";
+import { cn } from "@react-flowkit/ui/lib/utils";
 import {
   Position,
   useConnection,

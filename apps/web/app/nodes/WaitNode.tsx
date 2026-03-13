@@ -1,5 +1,5 @@
-import { registerDefaultNode } from "@workspace/ui/nodes/DefaultNode";
-import { registerFlowNode } from "@workspace/ui/utils/registerFlowNode";
+import { registerDefaultNode } from "@react-flowkit/ui/nodes/DefaultNode";
+import { registerFlowNode } from "@react-flowkit/ui/utils/registerFlowNode";
 import { Clock } from "lucide-react";
 import { z } from "zod";
 import { addFieldComponent } from "../FieldComponents";

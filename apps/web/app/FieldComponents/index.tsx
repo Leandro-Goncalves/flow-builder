@@ -1,7 +1,7 @@
 import {
   basicFieldComponents,
   createFieldComponents,
-} from "@workspace/ui/fieldComponents";
+} from "@react-flowkit/ui/fieldComponents";
 
 const AnotherField: React.FC<{ text: string }> = ({ text }) => (
   <div>Another Field: {text}</div>

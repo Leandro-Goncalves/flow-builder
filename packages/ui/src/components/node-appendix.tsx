@@ -1,7 +1,7 @@
-import type { ComponentProps } from "react";
 import { cva, type VariantProps } from "class-variance-authority";
+import type { ComponentProps } from "react";
 
-import { cn } from "@workspace/ui/lib/utils";
+import { cn } from "@react-flowkit/ui/lib/utils";
 
 const appendixVariants = cva(
   "node-appendix absolute flex w-full flex-col items-center rounded-md border bg-card p-1 text-card-foreground",
@@ -21,8 +21,7 @@ const appendixVariants = cva(
 );
 
 export interface NodeAppendixProps
-  extends ComponentProps<"div">,
-    VariantProps<typeof appendixVariants> {
+  extends ComponentProps<"div">, VariantProps<typeof appendixVariants> {
   className?: string;
   position?: "top" | "bottom" | "left" | "right";
 }

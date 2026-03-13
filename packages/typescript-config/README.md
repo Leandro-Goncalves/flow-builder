@@ -1,3 +1,3 @@
-# `@workspace/typescript-config`
+# `@react-flowkit/typescript-config`
 
-Shared typescript configuration for the workspace.
+Shared typescript configuration for the react-flowkit.

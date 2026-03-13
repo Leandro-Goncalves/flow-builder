@@ -1,4 +1,4 @@
-# @workspace/ui
+# @react-flowkit/ui
 
 ## 2.0.0
 
@@ -9,7 +9,7 @@
 ### Patch Changes
 
 - Updated dependencies [bc8e0af]
-  - @workspace/pubsub@2.0.0
+  - @react-flowkit/pubsub@2.0.0
 
 ## 1.0.0
 
@@ -20,4 +20,4 @@
 ### Patch Changes
 
 - Updated dependencies [754ff28]
-  - @workspace/pubsub@1.0.0
+  - @react-flowkit/pubsub@1.0.0

@@ -1,9 +1,9 @@
 "use client";
 
-import { FlowContainer } from "@workspace/ui/components/flowContainer";
-import { RunFlowNodeButton } from "@workspace/ui/components/run-flow-node-button";
-import { useFlowNodes } from "@workspace/ui/hooks/useFlowNodes";
-import { makeNode } from "@workspace/ui/utils/makeNode";
+import { FlowContainer } from "@react-flowkit/ui/components/flowContainer";
+import { RunFlowNodeButton } from "@react-flowkit/ui/components/run-flow-node-button";
+import { useFlowNodes } from "@react-flowkit/ui/hooks/useFlowNodes";
+import { makeNode } from "@react-flowkit/ui/utils/makeNode";
 import dynamic from "next/dynamic";
 import { fieldComponents } from "./FieldComponents";
 import { HTTPRequestNode } from "./nodes/HTTPRequestNode";

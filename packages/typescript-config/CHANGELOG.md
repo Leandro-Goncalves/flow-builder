@@ -1,4 +1,4 @@
-# @workspace/typescript-config
+# @react-flowkit/typescript-config
 
 ## 2.0.0
 

@@ -1,9 +1,13 @@
 import { dropTargetForElements } from "@atlaskit/pragmatic-drag-and-drop/element/adapter";
-import { Field, FieldError, FieldLabel } from "@workspace/ui/components/field";
-import { Input } from "@workspace/ui/components/input";
-import { useFieldContext } from "@workspace/ui/context/createFormHookContexts";
-import { useFakeCaret } from "@workspace/ui/hooks/useFakeCaret";
-import { cn } from "@workspace/ui/lib/utils";
+import {
+  Field,
+  FieldError,
+  FieldLabel,
+} from "@react-flowkit/ui/components/field";
+import { Input } from "@react-flowkit/ui/components/input";
+import { useFieldContext } from "@react-flowkit/ui/context/createFormHookContexts";
+import { useFakeCaret } from "@react-flowkit/ui/hooks/useFakeCaret";
+import { cn } from "@react-flowkit/ui/lib/utils";
 import { useEffect, useRef, useState } from "react";
 
 type TextFieldProps = {

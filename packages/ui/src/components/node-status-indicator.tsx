@@ -1,7 +1,7 @@
-import { type ReactNode } from "react";
 import { LoaderCircle } from "lucide-react";
+import { type ReactNode } from "react";
 
-import { cn } from "@workspace/ui/lib/utils";
+import { cn } from "@react-flowkit/ui/lib/utils";
 
 export type NodeStatus = "loading" | "success" | "error" | "initial";
 

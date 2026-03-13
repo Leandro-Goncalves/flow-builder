@@ -1,5 +1,5 @@
 {
-  "name": "flow-builder",
+  "name": "react-flowkit",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,8 @@
     "publish-packages": "turbo run build lint && changeset version && changeset publish"
   },
   "devDependencies": {
-    "@workspace/eslint-config": "workspace:*",
-    "@workspace/typescript-config": "workspace:*",
+    "@react-flowkit/eslint-config": "workspace:*",
+    "@react-flowkit/typescript-config": "workspace:*",
     "prettier": "^3.8.1",
     "turbo": "^2.8.1",
     "typescript": "5.9.3"

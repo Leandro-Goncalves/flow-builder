@@ -1,5 +1,5 @@
-import { useFlowNodeContext } from "@workspace/ui/context/FlowNodeContext";
-import { flowPubSub } from "@workspace/ui/pubsub/eventBus";
+import { useFlowNodeContext } from "@react-flowkit/ui/context/FlowNodeContext";
+import { flowPubSub } from "@react-flowkit/ui/pubsub/eventBus";
 import { useReactFlow, type XYPosition } from "@xyflow/react";
 
 export const useAddDefaultNode = (parentNodeId?: string | null) => {

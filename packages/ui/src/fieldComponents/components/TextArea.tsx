@@ -1,6 +1,10 @@
-import { Field, FieldError, FieldLabel } from "@workspace/ui/components/field";
-import { Textarea } from "@workspace/ui/components/textarea";
-import { useFieldContext } from "@workspace/ui/context/createFormHookContexts";
+import {
+  Field,
+  FieldError,
+  FieldLabel,
+} from "@react-flowkit/ui/components/field";
+import { Textarea } from "@react-flowkit/ui/components/textarea";
+import { useFieldContext } from "@react-flowkit/ui/context/createFormHookContexts";
 
 type TextAreaProps = {
   label: string;

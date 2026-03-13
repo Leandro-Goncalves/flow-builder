@@ -1,14 +1,14 @@
-# @workspace/pubsub
+# @react-flowkit/pubsub
 
 A lightweight, dependency-free Pub/Sub implementation with extreme TypeScript type safety for UI-level cross-component communication.
 
 ## Installation
 
-This package is part of the workspace. Use it as:
+This package is part of the react-flowkit. Use it as:
 
 ```typescript
-import { createPubSub } from "@workspace/pubsub";
-import { useSubscribe } from "@workspace/pubsub/react";
+import { createPubSub } from "@react-flowkit/pubsub";
+import { useSubscribe } from "@react-flowkit/pubsub/react";
 ```
 
 ## Features
@@ -36,7 +36,7 @@ type AppEvents = {
 ### 2. Create a PubSub Instance
 
 ```typescript
-import { createPubSub } from "@workspace/pubsub";
+import { createPubSub } from "@react-flowkit/pubsub";
 
 const eventBus = createPubSub<AppEvents>();
 ```
@@ -67,7 +67,7 @@ eventBus.publish("user:login", { userId: "123", username: "john" });
 ### 5. React Hook Usage
 
 ```typescript
-import { useSubscribe } from "@workspace/pubsub/react";
+import { useSubscribe } from "@react-flowkit/pubsub/react";
 
 function MyComponent() {
   useSubscribe(eventBus, "user:login", (payload) => {

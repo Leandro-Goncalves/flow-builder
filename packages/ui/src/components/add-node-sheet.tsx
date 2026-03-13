@@ -1,4 +1,4 @@
-import { useSubscribe } from "@workspace/pubsub/react";
+import { useSubscribe } from "@react-flowkit/pubsub/react";
 import { type Node } from "@xyflow/react";
 import { useRef, useState } from "react";
 import { useFlowNodeContext } from "../context/FlowNodeContext";

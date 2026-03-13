@@ -1,5 +1,5 @@
-import { registerPlaceholderNode } from "@workspace/ui/nodes/PlaceholderNode";
-import { registerFlowNode } from "@workspace/ui/utils/registerFlowNode";
+import { registerPlaceholderNode } from "@react-flowkit/ui/nodes/PlaceholderNode";
+import { registerFlowNode } from "@react-flowkit/ui/utils/registerFlowNode";
 import { Plus } from "lucide-react";
 
 export const registerInitialNode = registerFlowNode({

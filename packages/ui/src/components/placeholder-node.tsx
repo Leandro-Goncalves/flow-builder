@@ -1,15 +1,15 @@
 "use client";
 
-import React, { useCallback, type ReactNode } from "react";
 import {
-  useReactFlow,
-  useNodeId,
   Handle,
   Position,
+  useNodeId,
+  useReactFlow,
   type NodeProps,
 } from "@xyflow/react";
+import { useCallback, type ReactNode } from "react";
 
-import { BaseNode } from "@workspace/ui/components/base-node";
+import { BaseNode } from "@react-flowkit/ui/components/base-node";
 
 export type PlaceholderNodeProps = Partial<NodeProps> & {
   children?: ReactNode;

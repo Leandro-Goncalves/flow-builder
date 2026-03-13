@@ -1,4 +1,4 @@
-import type { VarItem } from "@workspace/ui/hooks/useParentVars";
+import type { VarItem } from "@react-flowkit/ui/hooks/useParentVars";
 import { ChevronRight } from "lucide-react";
 import { useState } from "react";
 import { Button } from "../button";

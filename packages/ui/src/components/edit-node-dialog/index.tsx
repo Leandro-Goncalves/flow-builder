@@ -1,6 +1,6 @@
+import { useSubscribe } from "@react-flowkit/pubsub/react";
+import { useParentVars } from "@react-flowkit/ui/hooks/useParentVars";
 import { createFormHook } from "@tanstack/react-form";
-import { useSubscribe } from "@workspace/pubsub/react";
-import { useParentVars } from "@workspace/ui/hooks/useParentVars";
 import { useNodesData, type Node } from "@xyflow/react";
 import { TestTube, XIcon } from "lucide-react";
 import { Dialog as DialogPrimitive } from "radix-ui";

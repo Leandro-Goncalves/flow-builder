@@ -1,4 +1,4 @@
-import { createPubSub } from "@workspace/pubsub";
+import { createPubSub } from "@react-flowkit/pubsub";
 import type { Node } from "@xyflow/react";
 import type { FlowNode } from "../hooks/useFlowNodes";
 

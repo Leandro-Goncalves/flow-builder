@@ -1,4 +1,4 @@
-# @workspace/pubsub
+# @react-flowkit/pubsub
 
 ## 2.0.0
 

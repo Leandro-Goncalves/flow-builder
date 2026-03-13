@@ -14,7 +14,7 @@
     "components": "@/components",
     "hooks": "@/hooks",
     "lib": "@/lib",
-    "utils": "@workspace/ui/lib/utils",
-    "ui": "@workspace/ui/components"
+    "utils": "@react-flowkit/ui/lib/utils",
+    "ui": "@react-flowkit/ui/components"
   }
 }

@@ -1,4 +1,4 @@
-# @workspace/eslint-config
+# @react-flowkit/eslint-config
 
 ## 2.0.0
 

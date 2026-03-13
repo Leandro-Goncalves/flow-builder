@@ -1,8 +1,7 @@
 {
-  "name": "@workspace/pubsub",
+  "name": "@react-flowkit/pubsub",
   "version": "2.0.0",
   "type": "module",
-  "private": true,
   "scripts": {
     "lint": "eslint . --max-warnings 0"
   },
@@ -12,8 +11,8 @@
   },
   "devDependencies": {
     "@types/react": "^19.2.10",
-    "@workspace/eslint-config": "workspace:*",
-    "@workspace/typescript-config": "workspace:*",
+    "@react-flowkit/eslint-config": "workspace:*",
+    "@react-flowkit/typescript-config": "workspace:*",
     "eslint": "^9.39.2",
     "react": "^19.2.4",
     "typescript": "^5.9.3"

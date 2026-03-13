@@ -1,13 +1,22 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "@workspace/typescript-config/react-library.json",
+  "extends": "@react-flowkit/typescript-config/react-library.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@workspace/pubsub": ["./src/index.ts"],
-      "@workspace/pubsub/react": ["./src/react.ts"]
+      "@react-flowkit/pubsub": [
+        "./src/index.ts"
+      ],
+      "@react-flowkit/pubsub/react": [
+        "./src/react.ts"
+      ]
     }
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
