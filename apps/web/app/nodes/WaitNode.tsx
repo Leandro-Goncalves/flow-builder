@@ -11,7 +11,7 @@ export const registerWaitNode = registerFlowNode({
   dataFields: {
     time: addFieldComponent("TextField", {
       label: "Time to wait (ms)",
-      initialValue: "1000",
+      initialValue: "5000",
       placeholder: "Add time in milliseconds",
     }),
   },
