@@ -1,5 +1,16 @@
 # @react-flowkit/ui
 
+## 3.0.0
+
+### Major Changes
+
+- 7bf6a18: aaa
+
+### Patch Changes
+
+- Updated dependencies [7bf6a18]
+  - @react-flowkit/pubsub@3.0.0
+
 ## 2.0.0
 
 ### Major Changes

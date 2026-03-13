@@ -1,5 +1,11 @@
 # @react-flowkit/eslint-config
 
+## 3.0.0
+
+### Major Changes
+
+- 7bf6a18: aaa
+
 ## 2.0.0
 
 ### Major Changes
