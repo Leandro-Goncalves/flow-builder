@@ -3,6 +3,7 @@
 import { FlowContainer } from "@react-flowkit/ui/components/flowContainer";
 import { RunFlowNodeButton } from "@react-flowkit/ui/components/run-flow-node-button";
 import { useFlowNodes } from "@react-flowkit/ui/hooks/useFlowNodes";
+import "@react-flowkit/ui/styles/globals.css";
 import { makeNode } from "@react-flowkit/ui/utils/makeNode";
 import dynamic from "next/dynamic";
 import { fieldComponents } from "./FieldComponents";
