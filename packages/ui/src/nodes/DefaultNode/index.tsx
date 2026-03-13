@@ -85,7 +85,7 @@ export const DefaultNode: React.FC<DefaultNodeProps> = ({
 
   return (
     <BaseNode
-      ref={ref}
+      nodeRef={ref}
       id={nodeId}
       onClick={(e) => {
         handleClick?.(e);

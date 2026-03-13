@@ -2,9 +2,14 @@ import type { ComponentProps } from "react";
 
 import { cn } from "@react-flowkit/ui/lib/utils";
 
-export function BaseNode({ className, ...props }: ComponentProps<"div">) {
+export function BaseNode({
+  className,
+  nodeRef,
+  ...props
+}: ComponentProps<"div"> & { nodeRef?: React.Ref<HTMLDivElement> }) {
   return (
     <div
+      ref={nodeRef}
       className={cn(
         "bg-card text-card-foreground relative rounded-md border",
         "hover:ring-1",
