@@ -70,7 +70,7 @@ export function TextField({ label, ...props }: TextFieldProps) {
       <Input
         autoComplete="off"
         {...props}
-        ref={ref}
+        inputRef={ref}
         id={field.name}
         name={field.name}
         value={field.state.value}
