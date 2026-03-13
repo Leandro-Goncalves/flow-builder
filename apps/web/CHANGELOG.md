@@ -1,5 +1,13 @@
 # web
 
+## 3.1.1
+
+### Patch Changes
+
+- 1ec4708: a
+- Updated dependencies [1ec4708]
+  - @react-flowkit/ui@3.2.1
+
 ## 3.1.0
 
 ### Minor Changes

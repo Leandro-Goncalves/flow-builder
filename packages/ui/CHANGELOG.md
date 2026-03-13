@@ -1,5 +1,11 @@
 # @react-flowkit/ui
 
+## 3.2.1
+
+### Patch Changes
+
+- 1ec4708: a
+
 ## 3.2.0
 
 ### Minor Changes
