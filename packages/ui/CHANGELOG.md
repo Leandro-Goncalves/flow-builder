@@ -1,5 +1,11 @@
 # @react-flowkit/ui
 
+## 3.1.6
+
+### Patch Changes
+
+- 208ffcf: asd
+
 ## 3.1.5
 
 ### Patch Changes
