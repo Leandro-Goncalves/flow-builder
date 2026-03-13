@@ -1,7 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 
 import { Providers } from "@/components/providers";
-import "@react-flowkit/ui/globals.css";
 
 const fontSans = Geist({
   subsets: ["latin"],
