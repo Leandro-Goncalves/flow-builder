@@ -51,6 +51,6 @@
   },
   "exports": {
     ".": "./dist/index.js",
-    "./styles/globals.css": "./src/styles/globals.css"
+    "./dist/style.css": "./dist/index.css"
   }
 }
